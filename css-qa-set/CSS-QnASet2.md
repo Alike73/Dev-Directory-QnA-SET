@@ -1,7 +1,5 @@
 #### You can also find all 100 answers here 👉 [Devinterview.io - CSS](https://devinterview.io/questions/web-and-mobile-development/css-interview-questions)
 
-<br>
-
 ## 1. What does _CSS_ stand for and what is its primary use?
 
 **Cascading Style Sheets** (**CSS**) is primarily designed to separate web page content from its visual presentation. This allows for a consistent and adaptable design across multiple web pages.
@@ -94,8 +92,7 @@ footer {
   color: #fff;
 }
 ```
-<br>
-
+___
 ## 2. How do you include _CSS_ in your _HTML document_?
 
 There are **four primary methods** to incorporate CSS in an HTML document, each presenting unique advantages and use cases.
@@ -146,7 +143,7 @@ Here is the HTML code:
 </body>
 </html>
 ```
-<br>
+___
 
 ## 3. Can you explain the difference between _class_ and _ID selectors_?
 
@@ -196,7 +193,7 @@ Here is the CSS code:
 /* Styles applied using ID selector */
 #uniqueContent { color: red; }
 ```
-<br>
+___
 
 ## 4. What are _pseudo-classes_ in _CSS_?
 
@@ -216,7 +213,7 @@ Here is the CSS code:
 - **Input Control Pseudo-Classes**: Designed specifically for interactive elements, these pseudo-classes style form controls like buttons, inputs, and text areas. Some examples are `:default`, `:valid`, `:invalid`, and `:optional`.
 
 - **Enabled and Disabled Pseudo-classes**: These are self-explanatory; they alter the style of elements based on whether they're enabled or disabled. Examples include `:enabled` and `:disabled`.
-<br>
+___
 
 ## 5. Describe how to implement a _CSS reset_ and why it is useful.
 
@@ -257,7 +254,7 @@ h1 {
     margin: 0.67em 0;
 }
 ```
-<br>
+___
 
 ## 6. How do you select elements by _attribute_ in _CSS_?
 
@@ -303,7 +300,7 @@ In the example above,
 - `[class="important"]` selects all elements with the exact `class` attribute set to "important".
 - `[href^="https"]` will style all anchor links with an `href` attribute that starts with "https".
 - `[alt="home" i]` targets the `alt` attribute with a value of "home" in a case-insensitive manner.
-<br>
+___
 
 ## 7. What is a _pseudo-element_, and what are they used for?
 
@@ -353,7 +350,7 @@ Commonly used `pseudo-elements` include `::before` and `::after` which let devel
 
    - **Link**: Sometimes, especially with prior versions of Internet Explorer, using pseudo-elements proves crucial for achieving desired stylings.
    - **Implementation**: Useful for applying specifically crafted styles that wouldn't work properly on older browsers without this technique.
-<br>
+___
 
 ## 8. Explain the difference between the _child combinator_ and the _descendant combinator_.
 
@@ -401,7 +398,7 @@ Here is the HTML:
 1. **Specificity of Selection**: Implement the **child combinator** $>$ when you want to target a specific, direct child of an element.
 2. **Minimize Global Targeting**: Utilize the **descendant combinator** cautiously as it has the potential for global targeting. It's often a good habit to opt for more specific selectors.
 3. **Balance Styling and Performance**: As a rule of thumb, more specific selectors could improve rendering speed. Use combinators with a balanced approach keeping in mind both specificity and performance needs.
-<br>
+___
 
 ## 9. How would you select all direct _children elements_ of a particular type?
 
@@ -414,7 +411,7 @@ ul > li {
   /* Styles here */
 }
 ```
-<br>
+___
 
 ## 10. What are the _universal selector_ and the _sibling combinator_, and when would you use them?
 
@@ -504,7 +501,7 @@ The HTML:
     <p>Paragraph 2</p>
 </div>
 ```
-<br>
+___
 
 ## 11. What is the _CSS Box Model_?
 
@@ -571,7 +568,7 @@ This distinction aids in layout control and ensures uniformity.
     box-sizing: border-box;
 }
 ```
-<br>
+___
 
 ## 12. Explain _margin collapsing_.
 
@@ -608,8 +605,7 @@ This distinction aids in layout control and ensures uniformity.
 3. **Non-Adjacent Items**: A margin doesn't collapse through wrapping or inline elements.
 
 While margin collapsing can simplify layout management under specific conditions, it's essential to understand its behavior to ensure predictable and consistent designs.
-<br>
-
+___
 ## 13. What are the different values for the _box-sizing_ property and what do they do?
 
 The `box-sizing` property has three possible values:
@@ -623,7 +619,8 @@ The `box-sizing` property has three possible values:
 ### Visual Representation
 
 ![Box-Sizing Properties in CSS](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/questions-images%2Fcss-box-sizing.jpg?alt=media&token=6bba3876-148a-4b03-a5cc-c96bb8fddb5a)
-<br>
+
+___
 
 ## 14. How do you center a _block element_ with _CSS_?
 
@@ -672,7 +669,7 @@ To vertically center a block, modern techniques such as Flexbox and Grid layout 
   align-items: center; /* Vertically center child elements */
 }
 ```
-<br>
+___
 
 ## 15. What is the difference between _block_, _inline_, and _inline-block elements_?
 
@@ -709,9 +706,6 @@ In `div` and `span` due to default display type (block): text is separated by
 a gap.
 
 In `span.inline-block`: with `display: inline-block`, text shares a line but is visually separated by its background.
-<br>
-
-
 
 #### Explore all 100 answers here 👉 [Devinterview.io - CSS](https://devinterview.io/questions/web-and-mobile-development/css-interview-questions)
 
