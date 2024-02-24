@@ -1,5 +1,3 @@
-# 100 Fundamental CSS Interview Questions
-
 #### You can also find all 100 answers here 👉 [Devinterview.io - CSS](https://devinterview.io/questions/web-and-mobile-development/css-interview-questions)
 
 <br>
