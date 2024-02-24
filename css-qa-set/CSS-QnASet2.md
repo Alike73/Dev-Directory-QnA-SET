@@ -1,6 +1,6 @@
 #### You can also find all 100 answers here 👉 [Devinterview.io - CSS](https://devinterview.io/questions/web-and-mobile-development/css-interview-questions)
 
-## 1. What does _CSS_ stand for and what is its primary use?
+## #1. What does _CSS_ stand for and what is its primary use?
 
 **Cascading Style Sheets** (**CSS**) is primarily designed to separate web page content from its visual presentation. This allows for a consistent and adaptable design across multiple web pages.
 
@@ -93,7 +93,7 @@ footer {
 }
 ```
 ___
-## 2. How do you include _CSS_ in your _HTML document_?
+## #2. How do you include _CSS_ in your _HTML document_?
 
 There are **four primary methods** to incorporate CSS in an HTML document, each presenting unique advantages and use cases.
 
@@ -145,7 +145,7 @@ Here is the HTML code:
 ```
 ___
 
-## 3. Can you explain the difference between _class_ and _ID selectors_?
+## #3. Can you explain the difference between _class_ and _ID selectors_?
 
 **Class** and **ID** selectors in CSS serve distinct roles and have limitations in their applicability.
 
@@ -195,7 +195,7 @@ Here is the CSS code:
 ```
 ___
 
-## 4. What are _pseudo-classes_ in _CSS_?
+## #4. What are _pseudo-classes_ in _CSS_?
 
 **Pseudo-classes** are special keywords in CSS that allow you to apply styles to elements based not only on their state or position in the document tree but also on user interaction.
 
@@ -215,7 +215,7 @@ ___
 - **Enabled and Disabled Pseudo-classes**: These are self-explanatory; they alter the style of elements based on whether they're enabled or disabled. Examples include `:enabled` and `:disabled`.
 ___
 
-## 5. Describe how to implement a _CSS reset_ and why it is useful.
+## #5. Describe how to implement a _CSS reset_ and why it is useful.
 
 A **CSS reset** is a set of styles intended to reduce browser inconsistencies in elements such as margins, paddings, and various typical style defaults. 
 
@@ -256,7 +256,7 @@ h1 {
 ```
 ___
 
-## 6. How do you select elements by _attribute_ in _CSS_?
+## #6. How do you select elements by _attribute_ in _CSS_?
 
 While programming in CSS, you can leverage **attribute selectors** to define rules based on the presence or value of specific HTML attributes.
 
@@ -302,7 +302,7 @@ In the example above,
 - `[alt="home" i]` targets the `alt` attribute with a value of "home" in a case-insensitive manner.
 ___
 
-## 7. What is a _pseudo-element_, and what are they used for?
+## #7. What is a _pseudo-element_, and what are they used for?
 
 **Pseudo-elements** are virtual elements that give developers the power to style parts of an HTML document that don't correspond to actual HTML elements. Essentially, they let you apply styles to specific parts of an element without the need for extra HTML markup.
 
@@ -352,7 +352,7 @@ Commonly used `pseudo-elements` include `::before` and `::after` which let devel
    - **Implementation**: Useful for applying specifically crafted styles that wouldn't work properly on older browsers without this technique.
 ___
 
-## 8. Explain the difference between the _child combinator_ and the _descendant combinator_.
+## #8. Explain the difference between the _child combinator_ and the _descendant combinator_.
 
 The **child combinator** (>) and the **descendant combinator** (~) both serve to target HTML elements with CSS. However, they **operate in different ways**.
 
@@ -400,7 +400,7 @@ Here is the HTML:
 3. **Balance Styling and Performance**: As a rule of thumb, more specific selectors could improve rendering speed. Use combinators with a balanced approach keeping in mind both specificity and performance needs.
 ___
 
-## 9. How would you select all direct _children elements_ of a particular type?
+## #9. How would you select all direct _children elements_ of a particular type?
 
 To **select all direct children** of a specific type in CSS, you can use the `>` **child selector** combined with the desired element to build the selector.
 
@@ -413,7 +413,7 @@ ul > li {
 ```
 ___
 
-## 10. What are the _universal selector_ and the _sibling combinator_, and when would you use them?
+## #10. What are the _universal selector_ and the _sibling combinator_, and when would you use them?
 
 The **Universal Selector** (the asterisk, `*`) is a powerful tool that enables you to target every element within a specified container. While it's a straightforward selector, its implications can be broad.
 
@@ -503,7 +503,7 @@ The HTML:
 ```
 ___
 
-## 11. What is the _CSS Box Model_?
+## #11. What is the _CSS Box Model_?
 
 The **Box Model** is the foundational concept in CSS that describes the structure of an HTML element. It encompasses four key components: **content**, **padding**, **border**, and **margin**.
 
@@ -570,7 +570,7 @@ This distinction aids in layout control and ensures uniformity.
 ```
 ___
 
-## 12. Explain _margin collapsing_.
+## #12. Explain _margin collapsing_.
 
 **Margin collapsing** can occur when there are adjacent vertical margins between elements. In such cases, the larger of the two margins becomes the "collapsed margin."
 
@@ -606,7 +606,7 @@ ___
 
 While margin collapsing can simplify layout management under specific conditions, it's essential to understand its behavior to ensure predictable and consistent designs.
 ___
-## 13. What are the different values for the _box-sizing_ property and what do they do?
+## #13. What are the different values for the _box-sizing_ property and what do they do?
 
 The `box-sizing` property has three possible values:
 
@@ -622,7 +622,7 @@ The `box-sizing` property has three possible values:
 
 ___
 
-## 14. How do you center a _block element_ with _CSS_?
+## #14. How do you center a _block element_ with _CSS_?
 
 To center a **block-level** element using CSS, there are several methods, which handle either horizontal or vertical alignment.
 
@@ -671,7 +671,7 @@ To vertically center a block, modern techniques such as Flexbox and Grid layout 
 ```
 ___
 
-## 15. What is the difference between _block_, _inline_, and _inline-block elements_?
+## #15. What is the difference between _block_, _inline_, and _inline-block elements_?
 
 **Block elements**, by default, stack vertically, while **inline elements** sit next to each other on the same line.
 
