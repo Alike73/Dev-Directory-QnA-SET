@@ -1,4 +1,5 @@
 #### You can also find all 100 answers here 👉 [Devinterview.io - CSS](https://devinterview.io/questions/web-and-mobile-development/css-interview-questions)
+___
 
 ## #1. What does _CSS_ stand for and what is its primary use?
 
