@@ -1,4 +1,4 @@
-# SET 2
+# SET 2.
 ___
 #### You can also find all 100 answers here 👉 [Devinterview.io - CSS](https://devinterview.io/questions/web-and-mobile-development/css-interview-questions)
 ___
